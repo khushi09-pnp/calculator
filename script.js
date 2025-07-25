@@ -14,7 +14,7 @@ buttons.forEach(element => {
             string = '';
             inputBox.value = string;
         }
-        else if (b.target.innertText == 'DEL') {
+        else if (b.target.innerText == 'DEL') {
             string = string.substring(0, string.length - 1);
             inputBox.value = string;
         }
